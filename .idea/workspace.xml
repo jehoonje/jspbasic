@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7b388001-f4ba-4077-80e5-3960d8890b24" name="변경" comment="file update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap02/DancerListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap02/DancerListServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
   "keyToString": {
     "Maven.jspbasic [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "jehoon",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/jehoon/Desktop/coding/course/Java/jspbasic/src/main/java/com/jsp/Main.java",
     "project.structure.last.edited": "모듈",
@@ -116,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715154882628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="file update">
+      <option name="closed" value="true" />
+      <created>1715236846113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236846113</updated>
+    </task>
+    <task id="LOCAL-00003" summary="file update">
+      <option name="closed" value="true" />
+      <created>1715236921242</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236921242</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
