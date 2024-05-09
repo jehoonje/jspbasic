@@ -4,6 +4,7 @@
 
 <%!
 
+
   // 필드 선언
   public static List<Dancer> dancerList = new ArrayList<>();
 
