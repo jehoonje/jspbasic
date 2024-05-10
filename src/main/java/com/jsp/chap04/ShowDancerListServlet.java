@@ -1,7 +1,7 @@
 package com.jsp.chap04;
 
-
 import com.jsp.entity.Dancer;
+import com.jsp.repository.DancerJdbcRepo;
 import com.jsp.repository.DancerMemoryRepo;
 
 import javax.servlet.RequestDispatcher;
@@ -13,22 +13,23 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-// 역할: 댄서 목록 조회요청을 받아서 데이터베이스에 있는 댄서 정보를 가져온 후
-//      적당한 HTML 을 찾아서 forwarding
-@WebServlet("/chap04/show-list")
+// 역할 : 댄서 목록 조회 요청을 받아서 데이터베이스에 있는 댄서 정보를 가져온 후
+// 적당한 HTMl 을 찾아서 forwarding
+@WebServlet ("/chap04/show-list")
 public class ShowDancerListServlet extends HttpServlet {
 
-    // 싱글톤
-    private DancerMemoryRepo repo = DancerMemoryRepo.getInstance();
+    //    private DancerMemoryRepo repo = DancerMemoryRepo.getInstance();
+    private DancerJdbcRepo repo = DancerJdbcRepo.getInstance();
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // 데이터베이스에 접근하여 댄서 목록을 가져옴!
+        // 데이터베이스에 접근하여 댄서 목록을 가져옴
         List<Dancer> dancerList = repo.retrieve();
-//        System.out.println("가져와 = " + dancerList);
+//        System.out.println("내놔임마! = " + dancerList);
 
-        // JSP 파일에게 보낼 데이터 수송객체에 담기
+
+        //jsp 파일에게 보낼 데이터 수송객체에 담기
         req.setAttribute("dancers", dancerList);
 
         // JSP 파일 열기
