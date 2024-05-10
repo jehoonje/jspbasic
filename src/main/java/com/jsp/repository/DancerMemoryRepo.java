@@ -19,6 +19,7 @@ public class DancerMemoryRepo {
         return repo;
     }
 
+
     // 데이터베이스 역할을 할 자료구조
     private List<Dancer> dancerList = new ArrayList<>();
 
