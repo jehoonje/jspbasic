@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7b388001-f4ba-4077-80e5-3960d8890b24" name="변경" comment="file update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/greeting.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/process_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/chap03/dancer/register_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat.8181/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +67,9 @@
   "keyToString": {
     "Maven.jspbasic [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jehoon",
+    "git-widget-placeholder": "jehoon에 #4개",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jehoon/Desktop/coding/course/Java/jspbasic/src/main/webapp/chap03/dancer",
     "onboarding.tips.debug.path": "/Users/jehoon/Desktop/coding/course/Java/jspbasic/src/main/java/com/jsp/Main.java",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -71,6 +78,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/chap03/dancer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jsp" />
@@ -160,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715240981921</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="file update">
+      <option name="closed" value="true" />
+      <created>1715306614483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715306614483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
