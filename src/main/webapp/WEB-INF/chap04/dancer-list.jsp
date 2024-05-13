@@ -1,9 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<%@ page import="java.util.*" %>
-<%@ page import="com.jsp.entity.Dancer" %>
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -30,30 +27,41 @@
 </head>
 <body>
   
-  <%
-      List<Dancer> dancers = (List<Dancer>) request.getAttribute("dancers");
-  %>
-
-  <div>
-    ${dancers}
-  </div>
-
   <h1>댄서 정보 목록</h1>
   <ul id="dancer-list">
-    
-    <c:forEach var="1" begin="1" end="10">
-      <li>
-        # 이름: <span class="dancer-name">${Name}</span>,
-        # 크루명: ${d.CrewName},
-        # 레벨: ${d.DanceLevel},
-        # 페이: ${d.DanceLevel.PayPerEvent}원
-        <button class="del-btn">삭제</button>
-    </li>
-  </c:forEach>
 
+    <!--  for (Dancer d : dancers)  -->
+    <c:forEach var="d" items="${dancers}">
+      <li data-id="${d.id}">
+        # 이름: <span class="dancer-name">${d.name}</span>,
+        # 크루명: ${d.crewName},
+        # 레벨: ${d.danceLevel},
+        # 페이: ${d.danceLevel.payPerEvent}원
+        <button class="del-btn">삭제</button>
+      </li>
+    </c:forEach>
+
+    
   </ul>
 
   <a href="/chap04/dancer/form">다시 등록하기</a>
 
 </body>
+<script>
+  const $ul = document.getElementById('dancer-list');
+  $ul.addEventListener('click', e => {
+    e.preventDefault();
+
+    if (!e.target.matches('button.del-btn')) return;
+    
+    if (!confirm('정말로 삭제할까요?')) return;
+
+    // id정보 읽어오기
+    const id = e.target.closest('li').dataset.id;
+
+    // 링크 요청 생성
+    window.location.href = '/chap04/remove?id=' + id;
+
+  });
+</script>
 </html>
